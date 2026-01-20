@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background: #ec1c24;
+    color: #fff;
+    padding:20px 0;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+h1 a {
+    text-decoration: none; /* zruší podtržení */
+    color: inherit;        /* převezme barvu h1 */
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO */
+#hero {
+    color: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 0;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+    border-color: #2a2a72;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.logo {
+width: 120px;
+  float: left;
+  align-items: center;/* Umístění obrázku vlevo */
+  margin-right: 60px; /* Odsazení od textu */    /* vertikální vycentrování */
+
+}
+
+.content-image {
+    width: auto;        /* šířka podle obsahu / původního rozměru */
+    max-width: 100%;    /* nikdy nepřekročí šířku kontejneru */
+    display: block;     
+    margin: 0 20px;
+    border: 2px solid #000000;     /* nikdy nepřekročí šířku kontejneru */
+}
+
+
+
+
